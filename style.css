@@ -164,7 +164,7 @@
 	background-image: url("/img/repost.jpg");
 }
 .foto_merenda{
-	background-image: url("/img/merenda.jpg");
+	background-image: url("./img/merenda.jpg");
 }
 .quadro{
 	display: flex;
