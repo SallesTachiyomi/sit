@@ -16,7 +16,7 @@
 	align-items: center;
 }
 .logo{
-	background-image: url("/img/Instagram_logo.svg.png");	
+	background-image: url("img/Instagram_logo.svg.png");	
 	width: 103px;
 	height: 34px;
 	background-size: cover;
