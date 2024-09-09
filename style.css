@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;	
+	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.cabecalho{
+	border-top: solid 1px rgb(219,219,219);
+	border-bottom: solid 1px rgb(219,219,219);
+	height: 60px;	
+	justify-content: space-evenly;
+	align-items: center;
+}
+.logo{
+	background-image: url("/img/Instagram_logo.svg.png");	
+	width: 103px;
+	height: 34px;
+	background-size: cover;
+}
+.pesquisa{
+	width: 268px;
+	height: 36px;
+	padding: 0 16px;
+	background-color: rgb( 239,239,239);
+	font-size: 16px;
+	justify-content: center;
+	border-radius: 8px;
+	display: inherit;
+}
+.pesq{	
+	height: 36px;
+	width: 100%;
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+.pesq:focus{
+	border: none;
+	border-color: transparent;
+}
+.log{
+	justify-content: space-between;
+	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600px;	
+	text-align: center;
+}
+.entrar{
+	background-color: rgb( 0, 149, 246);
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	border-radius: 8px;
+	padding: 7px 16px;
+}
+.entrar:hover{
+	background-color: rgb( 24,119,242);
+}
+.cadastrar{	
+	padding: 7px 16px;	
+	
+	color: #22b7f7;
+}
+.cad{	
+	cursor: pointer;
+}
+.cad:hover{	
+	color: #84c8f5;
+}
+.principal{
+	justify-content: center;
+	padding: 30px 20px 0;
+	max-width: 975px;
+}
+.info_perfil{
+	height: 181px;
+	margin-bottom: 44px;
+}
+.foto_perfil{
+	display: flex;
+	flex-grow: 1;
+	width: 192px;
+	margin-right: 30px;
+	align-items: center;
+	padding-left: 41px;
+}
+.foto{
+	background-image: url("/img/foto_perfil.jpg");
+	width: 150px;
+	height: 150px;
+	background-size: cover;	
+	border: solid 1px rgb(219,219,219);
+	border-radius: 100px;
+}
+.infos{
+	width: 614px;
+}
+.l1{
+	justify-content: flex-start;
+	align-items: flex-end;
+	line-height: 25px;
+}
+
+.mensagem{
+	width: 144px;
+	height: 32px;
+	padding: 0 16px;
+	border: none;
+	border-radius: 8px;	
+	font-size: 14px;	
+	cursor: pointer;
+}
+.seguir{	
+	width: 82.52px;
+	height: 32px;
+	padding: 7px 16px;	
+	border: none;
+	border-radius: 8px;
+	margin-right: 3px;
+	font-size: 14px;	
+	cursor: pointer;
+}
+.nome{
+	width: 62px;
+	height: 25px;
+	font-size: 20px;
+	margin-right: 25px;
+}
+.l2{
+	justify-content: flex-start;	
+    text-align: center;
+	font-size: 14px;
+	margin: 20px 0;
+}
+.publicacoes{
+	margin-right: 40px;
+}
+.seguidores{
+	margin-right: 40px;
+}
+.seguindo{
+	margin-right: 40px;
+}
+.l3{
+	font-size: 14px;
+}
+.l3_2{
+	color: #737373;
+}
+.l3_5_1{
+	color: #00376b;
+}
+.storys{
+	justify-content: flex-start;
+	font-size: 12px;
+}
+.rotulo{
+	padding: 15px 0 0;
+}
+.foto_repost{
+	background-image: url("/img/repost.jpg");
+}
+.foto_merenda{
+	background-image: url("/img/merenda.jpg");
+}
+.quadro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 85px;
+	height: 108px;
+	padding: 10px 15px;
+}
+.circulo{
+	width: 77px;
+	height: 77px;
+	background-size: cover;
+	border-radius: 150px;
+	border: solid 1px rgb(219,219,219);
+}
+.selecionar{
+	width: 935px;
+	height: 53px;
+	border-top: solid 1px rgb(219,219,219);
+	margin-top: 45px;
+	letter-spacing: 1px;
+	font-size: 100%;
+	color:rgb(115, 115, 115);
+}
+.select{
+	margin-right: 50px;
+	cursor: pointer;
+}
+.marcados{
+	margin-right: 0;
+}
+@media only screen and (max-width: 640px){
+	.pesquisa{display: none;}
+	
+}
+@media only screen and (max-width: 735px){
+
+	.foto{
+		background-image: url("/img/foto_perfil.jpg");
+		width: 77px;
+		height: 77px;
+		background-size: cover;
+	}
+}
+/*https://www.instagram.com/ifms.nv/*/
+.fotos{
+	display: flex;
+	flex-wrap: wrap;
+}
+.img{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	margin: 2px;
+}
+.entrar_login{
+	display: none;
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 25vh;
+	left: 42vw;
+}
+.logar{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
