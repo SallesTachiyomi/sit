@@ -161,7 +161,7 @@
 	padding: 15px 0 0;
 }
 .foto_repost{
-	background-image: url("/img/repost.jpg");
+	background-image: url("img/repost.jpg");
 }
 .foto_merenda{
 	background-image: url("img/merenda.jpg");
